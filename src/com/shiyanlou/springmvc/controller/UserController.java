@@ -18,7 +18,7 @@ public class UserController {
 		ModelAndView model = new ModelAndView();
 		model.addObject("user", user);
 //		model.setViewName("redirect:/register1.action");
-		model.setViewName("views/success");
+		model.setViewName("views/success1");
 		return model;
 	}
 	
